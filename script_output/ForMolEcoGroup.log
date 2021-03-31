@@ -1,0 +1,16 @@
+
+VCFtools - 0.1.15
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf data/FIL_6.recode.vcf
+	--keep script_output/ForMolEcoGroupAnemSppLigIDs.txt
+	--recode-INFO-all
+	--out script_output/ForMolEcoGroup
+	--recode
+
+Keeping individuals in 'keep' list
+After filtering, kept 1521 out of 2908 Individuals
+Outputting VCF file...
+After filtering, kept 1005 out of a possible 1005 Sites
+Run Time = 6.00 seconds
