@@ -3,14 +3,15 @@ VCFtools - 0.1.15
 (C) Adam Auton and Anthony Marcketta 2009
 
 Parameters as interpreted:
-	--vcf data/FIL_6.recode.vcf
-	--keep script_output/ForMolEcoGroupAnemSppLigIDs.txt
-	--recode-INFO-all
+	--vcf script_output/SnpsWithContigIDsForMolEcoGroup.vcf
+	--chrom-map script_output/ForMolEcoGroup.chrom-map.txt
 	--out script_output/ForMolEcoGroup
-	--recode
+	--plink
 
-Keeping individuals in 'keep' list
-After filtering, kept 1521 out of 2908 Individuals
-Outputting VCF file...
+After filtering, kept 1521 out of 1521 Individuals
+Writing PLINK PED and MAP files ... 
+	Read 485 chromosome mapping file entries.
+	PLINK: Only outputting biallelic loci.
+Done.
 After filtering, kept 1005 out of a possible 1005 Sites
-Run Time = 6.00 seconds
+Run Time = 1.00 seconds

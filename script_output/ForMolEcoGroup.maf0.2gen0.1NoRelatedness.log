@@ -1,0 +1,44 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
+Options in effect:
+  --allow-no-sex
+  --file script_output/ForMolEcoGroup.recode
+  --geno 0.1
+  --maf 0.02
+  --make-bed
+  --out script_output/ForMolEcoGroup.maf0.2gen0.1NoRelatedness
+  --rel-cutoff 0.25
+
+Hostname: annotate.sebs.rutgers.edu
+Working directory: /local/home/katrinac/ClownfishGWAS
+Start time: Thu Apr  1 14:20:28 2021
+
+Random number seed: 1617301228
+515706 MB RAM detected; reserving 257853 MB for main workspace.
+Scanning .ped file... done.
+Performing single-pass .bed write (1003 variants, 1521 people).
+--file: script_output/ForMolEcoGroup.maf0.2gen0.1NoRelatedness-temporary.bed +
+script_output/ForMolEcoGroup.maf0.2gen0.1NoRelatedness-temporary.bim +
+script_output/ForMolEcoGroup.maf0.2gen0.1NoRelatedness-temporary.fam written.
+1003 variants loaded from .bim file.
+1521 people (0 males, 0 females, 1521 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+script_output/ForMolEcoGroup.maf0.2gen0.1NoRelatedness.nosex .
+1521 phenotype values loaded from .fam.
+Using up to 71 threads (change this with --threads).
+Before main variant filters, 1521 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.930888.
+110 variants removed due to missing genotype data (--geno).
+0 variants removed due to minor allele threshold(s)
+(--maf/--max-maf/--mac/--max-mac).
+893 variants and 1521 people pass filters and QC (before --rel-cutoff).
+Among remaining phenotypes, 57 are cases and 1464 are controls.
+Relationship matrix calculation complete.
+250 people excluded by --rel-cutoff.
+Remaining sample IDs written to
+script_output/ForMolEcoGroup.maf0.2gen0.1NoRelatedness.rel.id .
+--make-bed to script_output/ForMolEcoGroup.maf0.2gen0.1NoRelatedness.bed +
+script_output/ForMolEcoGroup.maf0.2gen0.1NoRelatedness.bim +
+script_output/ForMolEcoGroup.maf0.2gen0.1NoRelatedness.fam ... done.
+
+End time: Thu Apr  1 14:20:29 2021
