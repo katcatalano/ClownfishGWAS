@@ -1,3 +1,4 @@
+fish_indiv	ligation_id	anem_spp	anem_spp_binary	sampligation_id
 1178	L4516	HECR	1	APCL_L4516
 1271	L4365	HECR	1	APCL_L4365
 2271	L3211	HECR	1	APCL_L3211
